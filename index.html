@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/trick2.css">
+</head>
+
+<body>
+
+        <div>
+                <h2>LIVING IN <br> THE EDGE</h2>
+        </div>
+        <div>
+                <h2>LIVING IN <br> THE EDGE</h2>
+        </div>
+        <div>
+                <h2>LIVING IN <br> THE EDGE</h2>
+        </div>
+        <div onmousemove="para(event)">
+                <h2>LIVING IN <br> THE EDGE</h2>
+        </div>
+
+</body>
+<script>
+        function para(e) {
+                let _he = ((e.target.clientHeight)) / 2
+                let _wi = ((e.target.clientWidth)) / 2
+                let z = ((e.clientX)) - _wi
+                let y = ((e.clientY)) - _he
+                let zero = e.target
+                let one = e.target.previousElementSibling
+                let two = e.target.previousElementSibling.previousElementSibling
+                let three = e.target.previousElementSibling.previousElementSibling.previousElementSibling
+                zero.style.bottom = y + 'px'
+                zero.style.right = z + 'px'
+                one.style.top = y + 'px'
+                one.style.right = z + 'px'
+                two.style.left = z + 'px'
+                two.style.top = y + 'px'
+                three.style.bottom = y + 'px'
+                three.style.left = z + 'px'
+        }
+
+</script>
+
+</html>
