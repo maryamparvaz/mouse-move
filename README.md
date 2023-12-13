@@ -1,7 +1,7 @@
 # mouse-move
 - [Demo Project](https://maryamparvaz.github.io/mouse-move/)
 
-- Developed by Maryam Parvaz 🙎
+- Developed by Maryam Parvaz 
 
 - Created - 2023-9-9
 
