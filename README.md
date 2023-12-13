@@ -1,5 +1,5 @@
 # mouse-move
-- [Demo Project](https://maryamparvaz.github.io/accordion-menu-3/)
+- [Demo Project](https://maryamparvaz.github.io/mouse-move/)
 
 - Developed by Maryam Parvaz 🙎
 
